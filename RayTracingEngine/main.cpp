@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "Utils/VectorF2D.h"
+#include "Utils/vectorf2d.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

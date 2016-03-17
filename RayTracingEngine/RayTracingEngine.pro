@@ -17,12 +17,15 @@ INCLUDEPATH = $$PWD/include
 
 SOURCES += main.cpp\
         mainwindow.cpp\
-    source/Utils/VectorF2D.cpp \
-    source/Utils/VectorF3D.cpp
+    source/Utils/vectorf2d.cpp \
+    source/Utils/vectorf3d.cpp
 
 HEADERS  += mainwindow.h\
-    include/Utils/VectorF2D.h \
-    include/Utils/VectorF3D.h \
-    include/Utils/VectorBase.h
+    include/Core/orthographiccamera.h \
+    include/Core/camera.h \
+    include/Core/ray.h \
+    include/Utils/vectorbase.h \
+    include/Utils/vectorf2d.h \
+    include/Utils/vectorf3d.h
 
 FORMS    += mainwindow.ui

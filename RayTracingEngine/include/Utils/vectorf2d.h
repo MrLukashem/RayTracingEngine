@@ -2,7 +2,7 @@
 #ifndef VECTORF2D_H
 #define VECTORF2D_H
 
-#include "Utils/VectorBase.h"
+#include "Utils/vectorbase.h"
 #include <math.h>
 
 class VectorF2D : public VectorBase<VectorF2D> {
